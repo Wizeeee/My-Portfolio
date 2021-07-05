@@ -13,7 +13,7 @@
 
 ## Screenshot
 
-[](./assets/images/My-portfolio_sc.png)
+![](./assets/images/My-portfolio_sc.png)
 
 ## Assignment Description:
 
