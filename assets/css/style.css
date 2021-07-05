@@ -229,3 +229,42 @@ a:active {
 /*---------------
   WORK SECTION ENDS
   ---------------*/
+
+/*------------------------
+    Contact-Me styling starts
+    ------------------------*/
+article#contact-me {
+  display: flex;
+}
+
+ul.contact {
+  display: flex;
+  flex-basis: 95%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  list-style-type: none;
+  font-size: 20px;
+}
+/*contact me link hover styling*/
+
+ul.contact a:hover {
+  background-color: rgb(56, 180, 252);
+  color: black;
+}
+
+/*------------------------
+    footer styling starts
+      ------------------------*/
+footer {
+  background: var(--primary-color);
+  padding: 35px 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: rgb(238, 232, 170);
+}
+/*------------------------
+    footer styling Ends
+      ------------------------*/
