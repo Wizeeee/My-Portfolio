@@ -13,7 +13,7 @@
 
 ## Screenshot
 
-(./assets/images/My-portfolio_sc.png)
+[](./assets/images/My-portfolio_sc.png)
 
 ## Assignment Description:
 
@@ -24,7 +24,7 @@
 - When images are clicked, user is taken to deployed application.
 - Use flexbox and media queries to allow screen to resize correctly.
 
-## website Decrisption
+## Website Decrisption
 
 - Built with HTLM & CSS
 - Has 4 clickable navigation buttons at the top that take the user to the sections described.
