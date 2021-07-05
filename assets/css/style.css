@@ -279,18 +279,18 @@ footer {
   }
 
   /*h1 & nav title repositioning and sizing*/
-  nav {
+  .navlink {
     flex-direction: column;
     justify-content: center;
     font-size: 35px;
   }
 
   /*nav buttons resizing*/
-  header nav ul li a {
+  header .navlink ul li a {
     font-size: 32px;
   }
 
-  header nav ul li {
+  header .navlink ul li {
     padding: 0;
   }
 
@@ -345,6 +345,209 @@ footer {
   }
 
   /*contact me section resizing and positioning*/
+
+  ul.contact {
+    font-size: 20px;
+  }
+}
+/*--------------------------------------
+  media query for tablet  smaller screen
+    ------------------------------------*/
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+    padding: 0;
+  }
+
+  /*h1 & nav title repositioning and sizing*/
+  .navlink {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  /*nav buttons resizing*/
+  header .navlink ul li a {
+    font-size: 32px;
+  }
+
+  header .navlink ul li {
+    padding: 0;
+  }
+
+  .Subtitle {
+    margin: 0;
+  }
+
+  /*side-title re-positioning*/
+
+  .side-title {
+    padding: 0;
+    justify-content: start;
+    padding-left: 5px;
+    font-size: 22px;
+  }
+
+  /*content section resizing*/
+
+  .content {
+    font-size: 30px;
+    flex-direction: column-reverse;
+  }
+
+  /*about me section photo re-positioning*/
+
+  #photo {
+    max-block-size: fit-content;
+    width: 95%;
+  }
+
+  /*large card  and text re sizing and repositioning*/
+
+  .large-card img {
+    height: 600px;
+  }
+
+  .large-card h3 {
+    margin-top: 540px;
+  }
+
+  /*small card resizing and positioning*/
+  .LED-wall,
+  .calculator,
+  .pastel-puzzels,
+  .run-buddy {
+    width: 48.5%;
+  }
+
+  .LED-wall img,
+  .calculator img,
+  .pastel-puzzels img,
+  .run-buddy img {
+    width: 94%;
+  }
+
+  /*contact me section resizing and positioning*/
+
+  ul.contact {
+    font-size: 15px;
+  }
+}
+/*--------------------------------------
+  media query for phone smaller screen
+    ------------------------------------*/
+@media screen and (max-width: 575px) {
+  header {
+    text-align: center;
+    padding: 0;
+  }
+
+  /*h1 & nav title repositioning and sizing*/
+  .navlink {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+  }
+
+  /*nav buttons resizing*/
+  header .navlink ul li a {
+    font-size: 32px;
+  }
+
+  header .navlink ul li {
+    padding: 0;
+  }
+
+  .Subtitle {
+    margin: 0;
+  }
+
+  /*side-title re-positioning*/
+
+  .side-title {
+    padding: 0;
+    justify-content: start;
+    padding-left: 5px;
+    font-size: 25px;
+    flex-basis: 25%;
+  }
+
+  /*content section resizing*/
+
+  .content {
+    font-size: 30px;
+    flex-direction: column-reverse;
+  }
+
+  /*about me section photo re-positioning*/
+
+  #photo {
+    max-block-size: fit-content;
+    width: 95%;
+    margin-left: 0;
+  }
+
+  /*large card  and text re sizing and repositioning*/
+
+  .large-card img {
+    height: 600px;
+  }
+
+  .large-card h3 {
+    margin-top: 540px;
+  }
+
+  /*ALL cards text styling - LARGE FONT TEXT*/
+  .cards h3 {
+    margin-left: 15px;
+    margin-top: 130px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  /*all cards repositioning*/
+
+  .cards img {
+    margin-left: 15px;
+  }
+
+  /*ALL cards text styling - small FONT TEXT*/
+  .cards span {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  /*large card  and text resizing and positioning*/
+  .large-card img {
+    width: 92%;
+    height: 400px;
+  }
+
+  .large-card h3 {
+    margin-top: 350px;
+  }
+
+  /*small card re-organizing, sizing and positioning*/
+  .LED-wall,
+  .calculator,
+  .pastel-puzzels,
+  .run-buddy {
+    width: 97%;
+  }
+
+  .LED-wall img,
+  .calculator img,
+  .pastel-puzzels img,
+  .run-buddy img {
+    width: 95%;
+    height: 160px;
+  }
+  /*contact me section resizing and positioning*/
+
+  .contact-me {
+    margin-left: 20px;
+  }
 
   ul.contact {
     font-size: 20px;
