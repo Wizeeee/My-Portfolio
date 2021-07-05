@@ -1,0 +1,72 @@
+:root {
+  --primary-color: rgb(56, 180, 252);
+  --secondary-color: rgb(169, 220, 240);
+  --tertiary-color: rgb(238, 232, 170);
+  --general-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--secondary-color);
+}
+/* Header Styling starts */
+header {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: -2px;
+}
+
+.navlink {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px 50px 0;
+}
+
+ul.navlist {
+  align-self: center;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+header nav ul li {
+  display: inline;
+  padding: 01px 05px;
+}
+
+header nav ul li a {
+  font-style: italic;
+  margin: 2px 2px;
+  font-weight: lighter;
+  font-size: 27px;
+  padding: 2px;
+  letter-spacing: -2px;
+  border-bottom: 1px solid var(--tertiary-color);
+}
+
+header a:hover {
+  background-color: rgb(169, 220, 240);
+}
+
+.Subtitle {
+  font-style: italic;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px 50px 0 5px;
+}
+/* Header Styling End */
