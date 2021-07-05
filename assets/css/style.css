@@ -70,3 +70,162 @@ header a:hover {
   margin: 10px 50px 0 5px;
 }
 /* Header Styling End */
+
+/* About me section Styling starts */
+
+section#About-me {
+  display: flex;
+  border-bottom: var(--tertiary-color) 5px solid;
+}
+.content {
+  display: flex;
+  flex-basis: 85%;
+}
+
+.side-title {
+  font-size: 35px;
+  font-weight: bolder;
+  display: flex;
+  flex-basis: 15%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  border-right: var(--tertiary-color) 5px solid;
+}
+
+.articlebio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 60%;
+  margin: 15px 10px 15px 20px;
+}
+
+.bio2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 3px 1px;
+  text-align: left;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  flex-basis: 25%;
+  padding: 15px 30px 15px 0;
+}
+#photo {
+  max-height: 15vw;
+  width: auto;
+  margin-left: 28px;
+  border: var(--tertiary-color) 4px solid;
+}
+
+/* About me section Styling End */
+
+/* Work section Styling starts */
+
+section#work {
+  display: flex;
+  border-bottom: var(--tertiary-color) 5px solid;
+}
+
+.work {
+  margin-bottom: 20px;
+  margin-left: 11px;
+  max-width: 100%;
+  display: flex;
+}
+
+/*image fade while hovering*/
+#work img:hover {
+  opacity: 0.5;
+}
+
+/* Card start styling start */
+/*ALL card global styling*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+
+/*removal of anchor default decoration*/
+.cards a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*ALL cards image styling*/
+.cards img {
+  border: 4px solid rgb(238, 232, 170);
+  height: 250px;
+  width: 96%;
+}
+
+/*ALL card text styling*/
+.cards h3 {
+  padding: 0 20px;
+  margin-top: 210px;
+  margin-left: 20px;
+  background-color: rgb(56, 180, 252);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  text-align: left;
+}
+
+/*ALL cards text styling - LARGE FONT TEXT*/
+.cards h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*ALL cards text styling - small FONT TEXT*/
+.cards span {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/*large card width*/
+.large-card {
+  width: 100%;
+}
+
+/*large card img styling*/
+.large-card img {
+  margin-left: 20px;
+  width: 95%;
+  height: 800px;
+}
+
+/*large card text positioning*/
+.large-card h3 {
+  margin-top: 740px;
+}
+
+/*small card width*/
+.LED-wall,
+.calculator,
+.pastel-puzzels,
+.run-buddy {
+  width: 48.5%;
+}
+
+/*small card margins*/
+.LED-wall img,
+.pastel-puzzels img,
+.calculator img,
+.run-buddy img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/*------------------------
+  CARD  STYLING SECTION ENDS
+  ------------------------*/
+/*---------------
+  WORK SECTION ENDS
+  ---------------*/
