@@ -475,11 +475,17 @@ footer {
   /*content section resizing*/
 
   .content {
-    font-size: 30px;
+    font-size: 25px;
     flex-direction: column-reverse;
   }
 
   /*about me section photo re-positioning*/
+  .img {
+    display: flex;
+    justify-content: center;
+    flex-basis: 25%;
+    padding: 15px 2px 15px 15px;
+  }
 
   #photo {
     max-block-size: fit-content;
