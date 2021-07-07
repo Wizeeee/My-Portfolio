@@ -468,8 +468,7 @@ footer {
   .side-title {
     padding: 0;
     justify-content: start;
-    padding-left: 5px;
-    font-size: 25px;
+    font-size: 20px;
     flex-basis: 25%;
   }
 
@@ -550,6 +549,12 @@ footer {
   }
 
   ul.contact {
-    font-size: 20px;
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: center;
   }
+}
+
+footer {
+  font-size: 10px;
 }
